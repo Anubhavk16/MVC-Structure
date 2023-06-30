@@ -10,4 +10,4 @@ const connectDB= async()=>{
     }
 
 }
-// module.exports=connect(process.env.mongoURI)
+module.exports=connectDB();
